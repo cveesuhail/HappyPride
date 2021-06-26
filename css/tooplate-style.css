@@ -20,6 +20,98 @@ body {
   letter-spacing: 0.2px;
 }
 
+.mod{
+  cursor: context-menu;;
+}
+
+.txt{
+  background-color: rgba(2, 6, 43, 0);
+  height: 280px;
+  
+}
+
+.pride{
+  color: #ffffff;
+}
+
+.containerally{
+  margin-top: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.footer{
+  background-color: rgb(255, 255, 255);
+  border-radius: 150px 150px 0px 0px;
+  box-shadow: 0px 0 80px rgba(0, 0, 0, 0.857);
+  color: darkorange;
+  height: 80px;
+}
+
+
+
+
+/*-----------------popup*/
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgb(44, 42, 58);
+  color: rgb(181, 174, 172);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(20, 0, 73) transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
@@ -40,7 +132,7 @@ body {
 
 .values .box h3 {
   font-size: 24px;
-  color: #000000b7;
+  color: #ffee00;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -293,9 +385,11 @@ b, strong {
 }
 
 .copyright-text {
+  margin-top: -8px;
   font-size: 16px;
   font-weight: normal;
   display: block;
+  color: #6a5100;
 }
 
 .dark-mode {
@@ -613,3 +707,11 @@ b, strong {
     vertical-align: top;
   }
 }
+
+.section-header{
+  margin-top: 60px;
+  
+ 
+}
+
+
