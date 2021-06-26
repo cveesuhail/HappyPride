@@ -1,0 +1,367 @@
+.pri{
+  height: 250px;
+  padding-left: 24%;
+  
+ 
+  
+  
+ 
+}
+svg {
+  width: 75%;
+  height: auto;
+}
+svg path {
+  stroke: red;
+  fill: none;
+  stroke-width: 2px;
+}
+svg path.hide {
+  display: none;
+}
+svg path:nth-of-type(1) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(2) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(3) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(4) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(5) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(6) {
+  stroke:rgb(0, 4, 65);
+}
+svg path:nth-of-type(7) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(8) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(9) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(10) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(11) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(12) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(13) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(14) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(15) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(16) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(17) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(18) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(19) {
+  stroke: rgb(0, 4, 65);
+}
+svg path:nth-of-type(20) {
+  stroke: rgb(0, 4, 65);
+}
+svg g.ride path {
+  stroke-dasharray: 140px;
+  stroke-dashoffset: 140px;
+  -webkit-animation: drawin1 1s ease-in 1 forwards;
+          animation: drawin1 1s ease-in 1 forwards;
+}
+svg g.ride path:nth-of-type(1) {
+  -webkit-animation-delay: 0.3333333333s;
+          animation-delay: 0.3333333333s;
+}
+svg g.ride path:nth-of-type(2) {
+  -webkit-animation-delay: 0.6666666667s;
+          animation-delay: 0.6666666667s;
+}
+svg g.ride path:nth-of-type(3) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+svg g.ride path:nth-of-type(4) {
+  -webkit-animation-delay: 1.3333333333s;
+          animation-delay: 1.3333333333s;
+}
+svg g.ride path:nth-of-type(5) {
+  -webkit-animation-delay: 1.6666666667s;
+          animation-delay: 1.6666666667s;
+}
+svg g.ride path:nth-of-type(6) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+svg g.ride path:nth-of-type(7) {
+  -webkit-animation-delay: 2.3333333333s;
+          animation-delay: 2.3333333333s;
+}
+svg g.ride path:nth-of-type(8) {
+  -webkit-animation-delay: 2.6666666667s;
+          animation-delay: 2.6666666667s;
+}
+svg g.ride path:nth-of-type(9) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+svg g.ride path:nth-of-type(10) {
+  -webkit-animation-delay: 3.3333333333s;
+          animation-delay: 3.3333333333s;
+}
+@-webkit-keyframes drawin1 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin1 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@-webkit-keyframes drawin3 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin3 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+g.arc path:nth-of-type(1) {
+  stroke: #ff00b3;
+  stroke-width: 3.75px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -41.48px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.125s;
+          animation-delay: 0.125s;
+}
+@-webkit-keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@-webkit-keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(2) {
+  stroke: #9900ff;
+  stroke-width: 3.5px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -39.58px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(3) {
+  stroke: #001aff;
+  stroke-width: 3.25px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -37.68px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.375s;
+          animation-delay: 0.375s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(4) {
+  stroke: #00ccff;
+  stroke-width: 3px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -35.78px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(5) {
+  stroke: #00ff80;
+  stroke-width: 2.75px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -33.88px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.625s;
+          animation-delay: 0.625s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(6) {
+  stroke: #33ff00;
+  stroke-width: 2.5px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -31.98px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(7) {
+  stroke: #e6ff00;
+  stroke-width: 2.25px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -30.08px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 0.875s;
+          animation-delay: 0.875s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(8) {
+  stroke: #ff6600;
+  stroke-width: 2px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -28.18px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(9) {
+  stroke: #ff004d;
+  stroke-width: 1.75px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -26.28px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 1.125s;
+          animation-delay: 1.125s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+svg g.arc path:nth-of-type(10) {
+  stroke: fuchsia;
+  stroke-width: 1.5px;
+  stroke-dasharray: 400px;
+  stroke-dashoffset: -400px;
+  transform: translate(-8.49px, -24.38px);
+  -webkit-animation: drawin2 4s ease-out 1 forwards;
+          animation: drawin2 4s ease-out 1 forwards;
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+@keyframes drawin2 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes drawin4 {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
